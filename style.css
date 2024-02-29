@@ -4,6 +4,12 @@
 	color: #2A2B2B;
 	/*color: #eee;*/
 }
+
+
+
+
+
+
 body{
 	padding: 0;
 	margin: 0;
@@ -343,3 +349,145 @@ nav{
 			width: 80%;
 			padding: 10px;
 		}
+
+/* for phone */
+@media only screen and (max-width:  768px){
+	nav{
+		visibility: hidden;
+		display: none;
+	}
+#header{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+}
+	.header-dev1{
+		flex: 80%;
+	}
+	.header-dev1 h1, h2, h3,p{
+			font-size: 40px;
+			text-align: left;
+			font-weight: normal;
+			font-family: "tahoma";
+			margin-left: 60px;
+		}
+		.header-dev1 h3{
+			font-family: "Brush Script MT", cursive;
+		}
+		.header-dev1 h1, h3{
+			color: #eee;
+		}
+		.header-dev1 h2{
+			margin-top: -30px;
+			font-weight: bold;
+		}
+		.header-dev1 h3{
+			margin-top: -60px;
+			margin-right: 30px;
+			font-size: 50px;
+		}
+		.header-dev1 p{
+			font-size: 10px;
+			color: #eee;
+			width: 300px;
+			float: left;
+			margin-top: -30px;
+			font-style: italic;
+		}
+		.header-dev1 .contact-me{
+			display: none;
+		}
+	.header-dev2{
+		flex: 20%;
+	}
+		.header-dev2-image img{
+			display: none;
+		}
+		.icons{
+			display: flex;
+			align-self: flex-start;
+			flex-direction: row;
+			padding: 10px;
+			margin-top: 20px;
+			margin-left: 250px;
+			border-radius: 30px;
+			height: 50px;
+			width: 140px;
+		}
+		.header-dev2-image .icons a i{
+			font-size: 50px;
+			text-align: center;
+			color: #222831;
+			padding: 10px 5px;
+			margin-top: -10px;
+		}
+		.header-dev2-image .icons a i{
+			font-size: 30px;
+		}
+		.fa-facebook{
+			margin-top: -20px;
+		}
+		#facebook, #instagram, #behance{
+			color: #eee;
+			transition: 400ms;
+		}
+		.fa-square-instagram{
+			margin-left: 2px;
+			margin-top: -40px;
+		}
+		.fa-square-behance{
+			margin-left: 2px;
+			margin-top: -40px;
+		}
+		#facebook:hover, #instagram:hover, #behance:hover{
+			color: #2A2B2B;
+			transition: 1000ms;
+		}
+.tech-stack{
+	margin-top: -50px;
+	padding: 10px;
+	height: 230px;
+}
+	.tech-stack p{
+		text-align: left;
+		font-size: 18px;
+		font-weight: bold;
+		margin-top: 10px;
+		margin-left: 50px;
+	}
+	.tech-stack-logo{
+		display: flex;
+		justify-content: space-evenly;
+		width: 80%;
+		margin:  auto;
+		height: 120px;
+		align-items: center;
+		background-color: #eee;
+		padding: 0px;
+		margin-top: -50px;
+	}
+		.tech-stack .tech-stack-logo i{
+			font-size: 40px;
+		}
+}
+
+
+		.me-details p{
+			text-align: left;
+			font-size: 18px;
+			font-weight: bold;
+			margin-top: 40px;
+			margin-left: 15px;
+			/*margin-left: 200px;*/
+		}
+		.me-details h5{
+			text-align: left;
+			font-size: 12px;
+			font-weight: lighter;
+			margin-top: -10px;
+			width: 80%;
+			padding: 10px;
+		}
+
+/**/
