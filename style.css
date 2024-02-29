@@ -265,8 +265,10 @@ nav{
 					.project-app-used{
 						display: flex;
 						flex-direction: row;
+						flex-wrap: wrap;
 					}
 						.app-used{
+							flex: 15%;
 							font-weight: normal;
 							margin: 10px;
 							color: white;
@@ -410,7 +412,7 @@ nav{
 			flex-direction: row;
 			padding: 10px;
 			margin-top: 20px;
-			margin-left: 250px;
+			margin-left: 230px;
 			border-radius: 30px;
 			height: 50px;
 			width: 140px;
@@ -471,8 +473,15 @@ nav{
 			font-size: 40px;
 		}
 }
-
-
+/**/
+						.app-used{
+							flex: 25%;
+						}
+/**/
+.divider{
+	margin-top: 150px;
+}
+/**/
 		.me-details p{
 			text-align: left;
 			font-size: 18px;
