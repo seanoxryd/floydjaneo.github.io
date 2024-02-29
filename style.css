@@ -1,0 +1,345 @@
+*{
+	font-family: "Tahoma", sans-serif;
+	box-sizing: border-box;
+	color: #2A2B2B;
+	/*color: #eee;*/
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+nav{
+	width: 100%;
+	height: 50px;
+	top: 0;
+}
+.nav-dev1{
+	display: flex;
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+	height: 50px;
+	text-align: center;
+}
+	.nav-dev2{
+		flex: 100%;
+		margin: 10px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+	}
+		.nav-dev2 a{
+			color: #eee;
+			text-decoration: none;
+			font-size: 15px;
+			font-weight: bold;
+			margin: 20px;
+			margin-top: 40px;
+			border-bottom: 5px solid transparent;
+			transition: 400ms;
+		}
+		.nav-dev2 a:hover{
+			transition: border-bottom .6s;
+			border-bottom: 5px solid #2A2B2B;
+			transition: 800ms;
+		}
+#header{
+	width: 100%;
+	height: 729px;
+	display: flex;
+}
+	.header-dev1{
+		flex: 50%;
+	}
+		.header-dev1 h1, h2, h3,p{
+			font-size: 100px;
+			text-align: right;
+			font-weight: normal;
+			font-family: "tahoma";
+		}
+		.header-dev1 h3{
+			font-family: "Brush Script MT", cursive;
+		}
+		.header-dev1 h1, h3{
+			color: #eee;
+		}
+		.header-dev1 h2{
+			margin-top: -80px;
+			font-weight: bold;
+		}
+		.header-dev1 h3{
+			margin-top: -150px;
+			margin-right: 120px;
+		}
+		.header-dev1 p{
+			font-size: 18px;
+			color: #eee;
+			width: 80%;
+			float: right;
+			margin-top: -60px;
+			font-style: italic;
+		}
+		.header-dev1 .contact-me{
+			/* From https://css.glass */
+			background: rgba(255, 255, 255, 0.24);
+			border-radius: 16px;
+			box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+			backdrop-filter: blur(13.5px);
+			-webkit-backdrop-filter: blur(13.5px);
+			border: 1px solid rgba(255, 255, 255, 0.53);
+			float: right;
+			width: 240px;
+			text-decoration: none;
+			text-align: center;
+			color: #eee;
+			margin-top: 30px;
+			padding: 10px;
+			font-weight: bold;
+			font-size: 20px;
+			transition: 400ms;
+			border-radius: 20px;
+		}
+		.header-dev1 .contact-me:hover{
+			/* From https://css.glass */
+			background: rgba(42, 43, 43, 1);
+			border-radius: 16px;
+			box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+			backdrop-filter: blur(5px);
+			-webkit-backdrop-filter: blur(5px);
+			border: 1px solid rgba(42, 43, 43, 0.3);
+			color: #eee;
+			transition: 800ms;
+		}
+	.header-dev2{
+		flex: 50%;
+	}
+		.header-dev2-image{
+			display: flex;
+			width: 100%;
+			height: 679px;
+		}
+			.header-dev2-image img{
+				width: 60%;
+				height: 100%;
+	  			object-fit: contain
+	  			margin-left: 40px;
+	  			align-items: flex-end;
+			}
+		.icons{
+			display: flex;
+			align-self: flex-end;
+			flex-direction: column;
+			padding: 10px;
+			/* From https://css.glass */
+			background: rgba(255, 255, 255, 0.24);
+			border-radius: 16px;
+			box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+			backdrop-filter: blur(13.5px);
+			-webkit-backdrop-filter: blur(13.5px);
+			border: 1px solid rgba(255, 255, 255, 0.53);
+			/**/
+			margin-left: 28%;
+			margin-bottom: 5%;
+			border-radius: 30px;
+			height: 190px;
+		}
+		.header-dev2-image .icons a i{
+			font-size: 40px;
+			text-align: center;
+			color: #222831;
+			padding: 10px 0;
+			margin-top: -5px;
+		}
+		.header-dev2-image .icons a i{
+			font-size: 40px;
+		}
+		.fa-facebook{
+			margin-top: -20px;
+		}
+		#facebook, #instagram, #behance{
+			color: #eee;
+			transition: 400ms;
+		}
+		.fa-square-instagram{
+			margin-left: 2px;
+			margin-top: -40px;
+		}
+		.fa-square-behance{
+			margin-left: 2px;
+			margin-top: -40px;
+		}
+		#facebook:hover, #instagram:hover, #behance:hover{
+			color: #2A2B2B;
+			transition: 1000ms;
+		}
+.tech-stack{
+	width: 100%;
+	background-color: #eee;
+	margin-top: -50px;
+	padding: 10px;
+	height: 290px;
+}
+	.tech-stack p{
+		text-align: left;
+		font-size: 22px;
+		font-weight: bold;
+		margin-top: 10px;
+		margin-left: 200px;
+	}
+	.tech-stack-logo{
+		display: flex;
+		justify-content: space-evenly;
+		width: 80%;
+		margin:  auto;
+		height: 120px;
+		align-items: center;
+		background-color: #eee;
+		padding: 20px;
+		margin-top: -20px;
+	}
+		.tech-stack .tech-stack-logo i{
+			font-size: 70px;
+		}
+.projects{
+	height: 1200px;
+	background-color: white;
+	margin-top: -100px;
+	padding: 10px;
+}
+	div.project-container + div.project-container{
+		margin-top: 300px;
+	}
+	.projects-list{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	.projects p{
+		text-align: left;
+		font-size: 22px;
+		font-weight: bold;
+		margin-top: 40px;
+		margin-left: 200px;
+	}
+	.project-container{
+		display: flex;
+		flex-direction: row;
+		width: 75%;
+		height: 100px;
+		margin: auto;
+	}
+		.project-container-details{
+			flex: 50%;
+		}		
+			.project-container-updown{
+				display: flex;
+				flex-direction: column;
+			}
+				.project-container-data{
+					flex: 80%;
+				}
+					.project-name{
+						font-size: 18px;
+						float: left;
+						margin: 20px;
+						font-weight: bold;
+					}
+					.project-name-description{
+						font-size: 14px;
+						float: left;
+						margin: 20px;
+						text-align: left;
+						font-weight: normal;
+						width: 70%;
+						margin-top: -10px;
+					}
+				.project-container-data-used{
+					flex: 20%;
+				}
+					.project-app-used{
+						display: flex;
+						flex-direction: row;
+					}
+						.app-used{
+							font-weight: normal;
+							margin: 10px;
+							color: white;
+							font-size: 8px;
+							background-color: #666;
+							width: 80px;
+							text-align: center;
+							padding: 5px;
+							border-radius: 20px;
+						}
+		.project-container-image{
+			flex: 50%;
+		}
+			.project-container-image-pic{
+				display: flex;
+				width: 100%;
+				height: auto%;
+			}
+				.project-picture{
+					width: 100%;
+					height: auto%;
+	  				object-fit: contain;
+	  				align-items: center;
+	  				margin:40px;
+	  				padding: 20px;
+				}
+.divider{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 10px;
+}
+	.divider a{
+		text-decoration: none;
+	}
+	.more{
+		text-align: center;
+		font-size: 18px;
+		font-weight: bold;
+		padding: 5px;
+		width: 120px;
+		/*border-radius: 30px;*/
+		color: #eee;
+		background-color: #2A2B2B;
+		transition: 400ms;
+	}
+	.more:hover{
+		background-color: white;
+		color: #2A2B2B;
+		transition: 800ms;
+	}
+.about-me{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	border-top: 2px solid #666;
+	margin-top: -20px;
+}
+	.me-pic{
+		flex: 50%;
+
+	}
+	.me-details{
+		flex: 50%;
+
+	}
+		.me-details p{
+			text-align: left;
+			font-size: 22px;
+			font-weight: bold;
+			margin-top: 40px;
+			/*margin-left: 200px;*/
+		}
+		.me-details h5{
+			text-align: justify;
+			font-size: 18px;
+			font-weight: lighter;
+			margin-top: 20px;
+			width: 80%;
+			padding: 10px;
+		}
