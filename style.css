@@ -353,7 +353,7 @@ nav{
 		}
 
 /* for phone */
-@media only screen and (max-width:  768px){
+@media only screen and (max-width:  480px){
 	nav{
 		visibility: hidden;
 		display: none;
