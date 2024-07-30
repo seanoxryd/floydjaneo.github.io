@@ -473,6 +473,12 @@ nav{
 			font-size: 40px;
 		}
 }
+
+@media only screen and (max-width:  768px){
+	.header-dev2 .header-dev2-image{
+		width: 10%;
+	}
+}
 /**/
 						.app-used{
 							flex: 25%;
